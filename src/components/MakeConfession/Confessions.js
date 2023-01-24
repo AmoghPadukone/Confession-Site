@@ -11,13 +11,12 @@ import { getDocs } from "firebase/firestore";
 import { dbInstance } from "../../firebaseConfig";
 
 const gridStyles = {
-  padding: "0 1rem",
+  wordWrap: "break-word",
 };
 
 const Confessions = () => {
   const [notes, setNotes] = useState([]);
 
-  // const { notes } = useContext(DataContext);
   const getData = async () => {
     const data = await getDocs(dbInstance);
     setNotes(
@@ -39,9 +38,10 @@ const Confessions = () => {
           justifyContent="space-evenly"
           alignItems="flex-start"
           style={gridStyles}
+          spacing={3}
         >
           {notes.map((item) => (
-            <Grid item xs="auto" sm={4} md={4}>
+            <Grid style={{ wordWrap: "break-word" }} item xs={12} sm={6}>
               <Note note={item} />
             </Grid>
           ))}

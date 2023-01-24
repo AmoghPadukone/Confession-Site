@@ -9,6 +9,7 @@ import { styled } from "@mui/material/styles";
 const StyledCard = styled(Card)`
   border: 1px solid black;
   box-shadow: 0.4rem 0.5em rgba(121, 121, 121, 0.65);
+  maxwidth: 400;
 `;
 
 const Note = ({ note }) => {
