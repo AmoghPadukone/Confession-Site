@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.mainContainer {
+  margin: 2% 5%;
+  padding: 5%;
+  word-spacing: 0.5rem;
+}
+.heading {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.heading2 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.headingLine {
+  border-width: 2px;
+}
+
+.text1 {
+  font-family: "Roboto", sans-serif;
+  word-spacing: 0.5rem;
+  font-size: 1.5rem;
+  margin-left: 6%;
+}
+
+.text1 li {
+  letter-spacing: 0.05ch;
+  list-style-type: circle;
+
+  margin-bottom: 2rem;
+}
+.subtext {
+  font-size: 0.9rem;
+  text-align: right;
+  margin-right: 7rem;
+  word-spacing: normal;
+}
+
+.text2 {
+  font-family: "Roboto", sans-serif;
+  list-style-type: circle;
+  font-size: 1.5rem;
+  margin-left: 6%;
+}
+
+.text2 li {
+  letter-spacing: 0.05ch;
+  margin-bottom: 1rem;
+}
+
+.HaveFun {
+  margin: 4rem 2rem 0 0;
+  letter-spacing: 0.5ch;
+
+  text-align: center;
+}

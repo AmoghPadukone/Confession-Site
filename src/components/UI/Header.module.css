@@ -1,0 +1,10 @@
+header {
+  background-color: #a0b5d7;
+  display: flex;
+  min-width: 100vw;
+}
+
+.logo {
+  height: 70px;
+  margin: auto;
+}
